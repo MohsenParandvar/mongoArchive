@@ -1,0 +1,13 @@
+# Database configuration
+db_uri: "mongodb://{USER}:{PASS}@{ADDRESS'es}/?authSource={}"
+database: "{DB_NAME}"
+collections: 
+  - COLLECTION_1
+  - COLLECTION_2
+
+# Date configuration
+archive_days: 90
+date_format: "%Y.%m.%d"
+affix_collection: "_archive"
+queuing: true
+queue_size: 1000
